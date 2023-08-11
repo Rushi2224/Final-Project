@@ -1,0 +1,301 @@
+/* styles.css */
+/* Reset default margin and padding, set background color */
+body {
+  font-family: 'Baloo 2';
+  margin: 0;
+  padding: 0;
+  background-color: #05d07c;
+}
+
+/* Header styling */
+header {
+  font-size: 25px;
+  font-family: 'Chewy', Arial;
+  background-color: #9d05d0;
+  color: yellow;
+  padding: 10px;
+  text-align: center;
+  /* Creating a red text shadow effect */
+  text-shadow: -1px -1px 0 red, 1px -1px 0 red, -1px 1px 0 red, 1px 1px 0 red;
+}
+
+/* Styling for top navigation bar */
+.navbar1 {
+  font-size: 10px;
+  font-family: Arial, sans-serif;
+  text-decoration:underline;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* Styling for bottom navigation bar */
+.navbar {
+  font-family: 'Baloo 2';
+  background-color: #48037e;
+  font-size: medium;
+}
+
+/* Shared styling for both navigation bars */
+.navbar1,
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+/* Styling for navigation list items */
+.navbar1 li,
+.navbar li {
+  margin: 10px 30px;
+}
+
+/* Styling for navigation links */
+.navbar1 a,
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 9px 20px;
+}
+
+/* Hover effect for navigation links */
+.navbar1 a:hover,
+.navbar a:hover {
+  background-color: white;
+  color: #333;
+}
+
+/* Main content styling */
+main {
+  padding: 32px;
+}
+
+/* Styling for section headings */
+.featured-products h2,
+.age-categories h2,
+.indoor-outdoor h2 {
+  font-family: 'Baloo 2';
+  font-size: 35px;
+  margin-bottom: 50px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* Styling for age categories grid */
+.age-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Styling for age category cards */
+.age-category {
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  transition: box-shadow 0.3s;
+  border-radius: 10px;
+}
+
+/* Hover effect for age category cards */
+.age-category:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+
+/* Styling for age category card content */
+.age-card {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+/* Styling for age category card images */
+.age-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+/* Styling for h3 headings */
+h3 {
+  margin-bottom: 10px;
+}
+
+/* Styling for buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Hover effect for buttons */
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for about-teddy section */
+.about-teddy {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Styling for about-teddy h4 button */
+.about-teddy h4 {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Hover effect for about-teddy h4 button */
+.about-teddy h4:hover {
+  background-color: #007bff;
+  transform: scale(1.2);
+}
+
+/* Styling for image container */
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styling for about-teddy images */
+.about-image {
+  max-width: 300px;
+  height: auto;
+  margin: 0 10px;
+}
+
+/* Styling for product highlights list */
+.product-highlights ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+/* Styling for product highlights list items */
+.product-highlights li {
+  font-size: 18px;
+  color: black;
+  line-height: 1.6;
+  margin-bottom: 5px;
+}
+
+/* Styling for contact form */
+form {
+  margin-top: 20px;
+}
+
+/* Styling for form groups */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Styling for form labels */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Styling for form inputs and textarea */
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styling for textarea resizing */
+textarea {
+  resize: vertical;
+}
+
+/* Styling for submit button */
+button {
+  background-color: #9d05d0;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hover effect for submit button */
+button:hover {
+  background-color: #9d05d0;
+  transform: scale(1.2);
+}
+
+/* Footer section styling */
+footer {
+  background-color: #9d05d0;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Styling for footer content */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Styling for footer content div */
+.footer-content div {
+  flex: 1 1 300px;
+  max-width: 300px;
+  padding: 0 10px;
+}
+
+/* Styling for footer section headings */
+.footer-content h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Styling for footer content paragraphs */
+.footer-content p {
+  font-size: 18px;
+}
+
+/* Styling for footer content lists */
+.footer-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Styling for footer content list items */
+.footer-content li {
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+/* Styling for footer content links */
+.footer-content a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hover effect for footer content links */
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+/* Styling for copyright notice */
+.footer-content .copyright {
+  margin-top: 20px;
+}
